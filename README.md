@@ -1,0 +1,2 @@
+# LIBFT
+my libft project 🧑‍💻
