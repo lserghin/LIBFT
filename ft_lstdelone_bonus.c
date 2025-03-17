@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 15:58:06 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/08 18:48:44 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:09:32 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,5 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*))
 		return ;
 	del(lst->content);
 	free(lst);
+	return ;
 }

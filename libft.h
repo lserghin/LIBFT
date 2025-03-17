@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 20:10:25 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/06 22:27:34 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:08:25 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include <stdio.h>
 # include <unistd.h>
 
 typedef long unsigned int	t_size_t;

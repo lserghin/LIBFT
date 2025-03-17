@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 13:10:46 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/02 20:30:42 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:08:39 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,5 @@ void	ft_bzero(void *s, size_t n)
 	variant_s = (unsigned char *)s;
 	while (n--)
 		*variant_s++ = '\0';
+	return ;
 }

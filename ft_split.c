@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 19:50:54 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/16 17:39:03 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:12:03 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ static void	ft_free_mem(char **strings, char **variant_s)
 	while (--variant_s >= strings)
 		free(*variant_s);
 	free(strings);
+	return ;
 }
 
 static char	*ft_skip_sep(const char *s, char c)

@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:31:46 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/09 21:32:45 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:11:23 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,5 @@ void	ft_putendl_fd(char *s, int fd)
 	while (*s)
 		write(fd, s++, 1);
 	write(fd, "\n", 1);
+	return ;
 }

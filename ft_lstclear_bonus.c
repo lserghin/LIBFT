@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:24:58 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/08 13:39:54 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:09:26 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,5 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 		current = next;
 	}
 	*lst = NULL;
+	return ;
 }

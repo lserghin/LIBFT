@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 21:18:30 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/04 13:14:31 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:17:50 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,11 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!str)
 		return (NULL);
 	index = 0;
-	while (s[index] != '\0')
+	while (*(s + index) != '\0')
 	{
-		str[index] = f(index, s[index]);
+		*(str + index) = f(index, *(s + index));
 		index++;
 	}
-	str[index] = '\0';
+	*(str + index) = '\0';
 	return (str);
 }

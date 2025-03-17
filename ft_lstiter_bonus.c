@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:51:21 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/08 17:54:30 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:09:37 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,5 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		f(current->content);
 		current = current->next;
 	}
+	return ;
 }

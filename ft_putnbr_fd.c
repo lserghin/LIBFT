@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:27:11 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/08 20:26:32 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:11:34 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ void	ft_putnbr_fd(int n, int fd)
 		un = n;
 	while (un)
 	{
-		*variant_s = (un % 10) + '0';
+		*variant_s++ = (un % 10) + '0';
 		un /= 10;
-		variant_s++;
 	}
 	while (variant_s > str)
 		write(fd, --variant_s, 1);
+	return ;
 }

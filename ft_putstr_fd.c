@@ -6,7 +6,7 @@
 /*   By: lserghin <lserghin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:23:53 by lserghin          #+#    #+#             */
-/*   Updated: 2024/11/09 21:32:27 by lserghin         ###   ########.fr       */
+/*   Updated: 2025/03/17 21:11:40 by lserghin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,5 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	while (*s)
 		write(fd, s++, 1);
+	return ;
 }
